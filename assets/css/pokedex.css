@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: left;
 }
 
 .normal {
@@ -86,6 +87,11 @@
     border-radius: 1rem;
 }
 
+.pokemon:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
 .pokemon .number {
     color: #000;
     opacity: .3;
@@ -144,6 +150,12 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+.pagination button:hover {
+    background-color: #99a5ff;
+    cursor: pointer;
+
 }
 
 @media screen and (min-width: 380px) {

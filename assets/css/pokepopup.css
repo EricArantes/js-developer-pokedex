@@ -1,0 +1,180 @@
+.poke-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .poke-popup {
+        max-width: 960px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.poke-popup .name {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(36, 30, 30, 0.4);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: .25rem;
+}
+
+.poke-popup .number {
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(36, 30, 30, 0.4);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: .25rem;
+}
+
+.poke-popup .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+
+    background-color: rgba(36, 30, 30, 0.4);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: 50%;
+
+}
+
+.poke-popup .detail {
+    display: inline-block;
+    background-color: rgba(36, 30, 30, 0.4);
+    border-radius: 1rem;
+
+    margin-top: 1rem;
+    padding: 0.35rem;
+    width: 100%;
+}
+
+.poke-popup .detail .types {
+    display: inline-block;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.poke-popup .detail .types .type {
+    display: inline-block;
+    width: 50%;
+
+    text-transform: capitalize;
+
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.poke-popup .detail .stats {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.poke-popup .detail .stats .stat {
+    display: inline-block;
+
+    text-transform: capitalize;
+
+    color: rgb(255, 255, 255);
+    padding: .25rem .5rem;
+    margin: .5rem;
+    font-size: 2rem;
+    background-color: rgb(88, 88, 105);
+    border-radius: 1.5rem;
+
+    text-align: center;
+
+}
+
+.poke-popup .ability-title {
+    display: inline-block;
+
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    padding: 0.35rem;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: rgba(36, 30, 30, 0.4);
+    border-radius: 1rem 1rem 0 0;
+
+    height: min-content;
+
+    text-align: center;
+}
+
+.poke-popup .ability-name {
+    display: inline-block;
+
+    color: rgb(255, 255, 255);
+    margin-top: 0rem;
+    padding: 0.35rem;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: rgba(102, 85, 85, 0.4);
+
+    height: min-content;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.poke-popup .backout-button {
+    display: inline-block;
+    width: 10%;
+    height: 5%;
+    border-radius: 40%;
+    margin-top: 3rem;
+
+    font-size: 3rem;
+    background-color: rgba(77, 70, 70, 0.699);
+    border: none;
+    border-bottom: 5px solid rgb(168, 168, 168);
+
+}
+
+.backout-button:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+}
