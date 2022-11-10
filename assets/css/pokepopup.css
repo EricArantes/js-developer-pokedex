@@ -35,20 +35,27 @@
     margin-bottom: .25rem;
 }
 
+.poke-popup .poke-title {
+    display: flex;
+
+}
+
 .poke-popup .number {
     
     display: flex;
     flex-direction: column;
 
-    width: 100%;
+    width: fit-content;
 
     text-align: center;
+    justify-content: center;
     text-transform: capitalize;
     background-color: rgba(36, 30, 30, 0.4);
     border-radius: 1rem;
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: .25rem;
+    padding: 0.20rem;
 }
 
 .poke-popup .photo {
@@ -170,7 +177,6 @@
     font-size: 3rem;
     background-color: rgba(77, 70, 70, 0.699);
     border: none;
-    border-bottom: 5px solid rgb(168, 168, 168);
 
 }
 

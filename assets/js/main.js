@@ -34,8 +34,10 @@ function convertPokemonToLi(pokemon) {
     return `
         <div id="${pokemon.number}" class="poke-popup ${pokemon.type}" style="display: none;">
             
-            <span class="number"> #${pokemon.number}</span>
-            <span class="name">${pokemon.name}</span>
+            <div class="poke-title">
+                <span class="name">${pokemon.name}</span>
+                <span class="number"> #${pokemon.number}</span>
+            </div>
             <img class="photo" src="${pokemon.photo}" alt="${pokemon.name}">
             <div class="detail">
                     <ol class="types">
